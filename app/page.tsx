@@ -22,6 +22,7 @@ const featuredNotes = [
   'AI & Automation Enthusiast'
 ];
 
+
 export default function HomePage() {
   return (
     <main className="page-shell">
