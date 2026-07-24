@@ -4,7 +4,7 @@ import { sampleSites } from '@/lib/sample-sites';
 const links = [
   {
     label: 'Email',
-    href: 'mailto:your.email@gmail.com'
+    href: 'mailto:juliuscyvin@gmail.com'
   },
   {
     label: 'GitHub',

@@ -5,6 +5,7 @@ export type SampleSite = {
   accent: string;
   hero: string;
   highlight: string;
+  image: string;
   metrics: { label: string; value: string }[];
   features: string[];
 };
@@ -20,6 +21,7 @@ export const sampleSites: SampleSite[] = [
       'Simplifying research management through automation and intelligent recommendations.',
     highlight:
       'Features an AI-powered adviser recommendation system using TF-IDF and cosine similarity.',
+    image: '/projects/thesisflow.jpg',
     metrics: [
       { label: 'Backend', value: 'Flask' },
       { label: 'Database', value: 'PostgreSQL' },
@@ -41,6 +43,7 @@ export const sampleSites: SampleSite[] = [
       'Helping organizations manage operations more efficiently through integrated business tools.',
     highlight:
       'Combines inventory, procurement, accounting, and HR functions into a single platform.',
+    image: '/projects/EmployeeManagement.png',
     metrics: [
       { label: 'Frontend', value: 'React' },
       { label: 'Backend', value: 'Flask' },
@@ -62,6 +65,7 @@ export const sampleSites: SampleSite[] = [
       'Computer Science graduate focused on software development, AI, and IT solutions.',
     highlight:
       'Built with Next.js and designed for performance, accessibility, and responsiveness.',
+    image: '/projects/portfolio.jpg',
     metrics: [
       { label: 'Framework', value: 'Next.js' },
       { label: 'Performance', value: 'Optimized' },
