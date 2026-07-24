@@ -11,57 +11,66 @@ export type SampleSite = {
 
 export const sampleSites: SampleSite[] = [
   {
-    slug: 'lumen',
-    name: 'Lumen Studio',
-    description: 'A luminous editorial homepage with layered cards and cinematic spacing.',
-    accent: 'Soft gold',
-    hero: 'Editorial clarity for a modern creative studio.',
-    highlight: 'Built for storytelling and premium brand presentation.',
+    slug: 'thesisflow',
+    name: 'ThesisFlow',
+    description:
+      'A web-based research management system designed to streamline thesis submissions, adviser assignments, and academic workflows.',
+    accent: 'Blue',
+    hero:
+      'Simplifying research management through automation and intelligent recommendations.',
+    highlight:
+      'Features an AI-powered adviser recommendation system using TF-IDF and cosine similarity.',
     metrics: [
-      { label: 'Load feel', value: 'Fast' },
-      { label: 'Style', value: 'Editorial' },
-      { label: 'Mood', value: 'Warm' }
+      { label: 'Backend', value: 'Flask' },
+      { label: 'Database', value: 'PostgreSQL' },
+      { label: 'AI', value: 'NLP' }
     ],
     features: [
-      'Large hero statement with confident hierarchy',
-      'Soft depth, glass borders, and restrained motion',
-      'Responsive layout that keeps the page readable on mobile'
+      'Research submission and document management',
+      'Adviser recommendation using machine learning techniques',
+      'Role-based access control for students, advisers, and administrators'
     ]
   },
   {
-    slug: 'atlas',
-    name: 'Atlas Works',
-    description: 'A product-led sample site focused on structure, credibility, and sharp transitions.',
-    accent: 'Moss green',
-    hero: 'Built for product launches and service pages.',
-    highlight: 'Balances utility with a bold visual rhythm.',
+    slug: 'netforce',
+    name: 'NetForce ERP',
+    description:
+      'An enterprise resource planning platform that centralizes business operations into a unified system.',
+    accent: 'Emerald',
+    hero:
+      'Helping organizations manage operations more efficiently through integrated business tools.',
+    highlight:
+      'Combines inventory, procurement, accounting, and HR functions into a single platform.',
     metrics: [
-      { label: 'Focus', value: 'Conversion' },
-      { label: 'Tone', value: 'Direct' },
-      { label: 'Layout', value: 'Grid' }
+      { label: 'Frontend', value: 'React' },
+      { label: 'Backend', value: 'Flask' },
+      { label: 'Modules', value: 'ERP' }
     ],
     features: [
-      'Strong card grid for services and case studies',
-      'High-contrast text over olive gradients',
-      'Clean section flow for quick scanning'
+      'Inventory and asset management',
+      'Procurement and accounting workflows',
+      'HR and employee information management'
     ]
   },
   {
-    slug: 'verdant',
-    name: 'Verdant Archive',
-    description: 'A calm, museum-like sample page for portfolios, writing, or curated collections.',
-    accent: 'Deep olive',
-    hero: 'A quieter visual language with a refined finish.',
-    highlight: 'Designed for thoughtful content and long-form browsing.',
+    slug: 'portfolio',
+    name: 'Personal Portfolio',
+    description:
+      'A modern portfolio showcasing my projects, technical skills, certifications, and professional experience.',
+    accent: 'Gold',
+    hero:
+      'Computer Science graduate focused on software development, AI, and IT solutions.',
+    highlight:
+      'Built with Next.js and designed for performance, accessibility, and responsiveness.',
     metrics: [
-      { label: 'Spacing', value: 'Airy' },
-      { label: 'Texture', value: 'Rich' },
-      { label: 'Readability', value: 'High' }
+      { label: 'Framework', value: 'Next.js' },
+      { label: 'Performance', value: 'Optimized' },
+      { label: 'Design', value: 'Responsive' }
     ],
     features: [
-      'Elegant type pairing with generous line length',
-      'Subtle borders and ambient lighting effects',
-      'Works as a portfolio sample or inspiration site'
+      'Project showcase with detailed case studies',
+      'Skills, certifications, and experience sections',
+      'Fully responsive design for desktop and mobile'
     ]
   }
 ];
