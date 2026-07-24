@@ -22,7 +22,7 @@ export default async function SampleSitePage({ params }: PageProps) {
     <main className="sample-page">
       <div className="sample-page-inner">
         <Link className="back-link" href="/">
-          Back to portfolio hub
+          Back to main hub
         </Link>
 
         <div className="sample-hero">
@@ -30,6 +30,16 @@ export default async function SampleSitePage({ params }: PageProps) {
           <h1>{site.name}</h1>
           <p>{site.hero}</p>
         </div>
+
+        <section className="sample-detail-card">
+          <div className="eyebrow">Preview</div>
+          <p>Image path: {site.image}</p>
+          <img
+            src={site.image}
+            alt={site.name}
+            style={{ width: '100%', height: 'auto' }}
+          />
+        </section>
 
         <section className="sample-detail-grid">
           <article className="sample-detail-card sample-highlight">
