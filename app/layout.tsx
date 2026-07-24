@@ -13,9 +13,33 @@ const body = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: 'Olive Portfolio Hub',
-  description: 'A polished portfolio landing page with sample website links, built for Vercel deployment.',
-  metadataBase: new URL('https://olive-portfolio-hub.vercel.app')
+  title: 'Julius Cyvin Lim | Portfolio',
+  description:
+    'Computer Science graduate specializing in web development, databases, IT support, and AI-powered applications. Explore my projects, skills, and experience.',
+  metadataBase: new URL('https://your-portfolio-domain.vercel.app'),
+  keywords: [
+    'Julius Cyvin Lim',
+    'Portfolio',
+    'Computer Science',
+    'Software Developer',
+    'Web Developer',
+    'IT Support',
+    'AI Developer',
+    'React',
+    'Next.js',
+    'Flask',
+    'PostgreSQL'
+  ],
+  authors: [{ name: 'Julius Cyvin Lim' }],
+  creator: 'Julius Cyvin Lim',
+  openGraph: {
+    title: 'Julius Cyvin Lim | Portfolio',
+    description:
+      'Computer Science graduate specializing in web development, databases, IT support, and AI-powered applications.',
+    url: 'https://your-portfolio-domain.vercel.app',
+    siteName: 'Julius Cyvin Lim Portfolio',
+    type: 'website'
+  }
 };
 
 export default function RootLayout({
