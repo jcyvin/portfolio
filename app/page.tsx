@@ -33,7 +33,7 @@ export default function HomePage() {
         <div className="eyebrow">Julius Cyvin C. Lim</div>
 
         <h1>
-          Building modern web applications, automation solutions, and AI-powered systems.
+          Julius Cyvin C. Lim - Software Developer, Automation Enthusiast, and AI Explorer
         </h1>
 
         <p className="hero-copy">
